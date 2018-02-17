@@ -39,8 +39,8 @@ ul li {
     display: inline-block;
     background: #40A798;
     border: 2px solid snow;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 400;
     padding: 1%;
     width: 17%;
     /* inline-block для IE6-7*/
@@ -52,14 +52,14 @@ ul li {
 ul li:nth-child(2n) {
     background: #FC6E5E;
     width: 32%;
-}
+} 
 
 ul li:nth-child(3) {
     background: #F7B236;
     width: 35%;
 }
 
-ul li:nth-child(4) {
+ul li:nth-child(4) {h
     background: #F7B236;
 }
 
@@ -76,11 +76,13 @@ ul li:nth-child(7) {
 ul li:nth-child(9) {
     background: #BC5148;
     width: 35%;
+    z-index: 6;
 }
 
 ul li:nth-child(10) {
     background: #333644;
     width: 88.7%;
+    z-index: 9;
 }
 
 ul:hover li{opacity: 0.7;}
